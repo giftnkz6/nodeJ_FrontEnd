@@ -83,7 +83,7 @@ export default {
       const signUp = ()=> {
           store.dispatch("register", payload);
           // Refresh
-          store.dispatch("fetchUsers");
+          // store.dispatch("fetchUsers");
       }
       const userMsg = 
       computed( ()=>store.state.message )
